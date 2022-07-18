@@ -3,7 +3,7 @@ public class Q11 {
         System.out.println("==============");
         System.out.println(n);
 
-        long value = n;
+        long value = n; // <- long 으로 값을 계산하지 않으면 오버플로우가 발생합니다.
 
         int cnt = 0;
 
@@ -14,7 +14,6 @@ public class Q11 {
             else
                 value = 3 * value + 1;
             cnt++;
-            System.out.println(value);
 
         };
 

@@ -33,17 +33,17 @@ public class ResultClass {
 //        q7.solution(12345);
 //        q7 = null;
 //
-//        Q11 q11 = new Q11();
-//        System.out.println("result : " + q11.solution(6));
-//        System.out.println("result : " + q11.solution(16));
-//        System.out.println("result : " + q11.solution(1));
-//        System.out.println("result : " + q11.solution(626331));
-//
-//        q11 = null;
-//
+        Q11 q11 = new Q11();
+        System.out.println("result : " + q11.solution(6));
+        System.out.println("result : " + q11.solution(16));
+        System.out.println("result : " + q11.solution(1));
+        System.out.println("result : " + q11.solution(626331));
+        q11 = null;
+////
 //        Q15 q15 = new Q15();
 //        int[] arr = new int[]{1,2,3,3,3,4,4,3};
 //        q15.solution(arr);
+//        q15 = null;
 //
 //        Q19 q19 = new Q19();
 //        q19.solution(new String[]{"sun", "bed", "car"}, 1);
@@ -66,9 +66,9 @@ public class ResultClass {
 //        System.out.println(q31.solution(5));
 //        q31 = null;
 
-        Q35 q35 = new Q35();
-        q35.solution(5, new int[]{9, 20, 28, 18, 11}, new int[]{30, 1, 21, 17, 28});
-        q35.solution(6, new int[]{46, 33, 33 ,22, 31, 50}, new int[]{27 ,56, 19, 14, 14, 10});
-        q35 = null;
+//        Q35 q35 = new Q35();
+//        q35.solution(5, new int[]{9, 20, 28, 18, 11}, new int[]{30, 1, 21, 17, 28});
+//        q35.solution(6, new int[]{46, 33, 33 ,22, 31, 50}, new int[]{27 ,56, 19, 14, 14, 10});
+//        q35 = null;
     }
 }
